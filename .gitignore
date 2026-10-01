@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+
+# large artifacts: publish these as release assets instead
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+checkpoints/
+data/
+runs/
+wandb/
